@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-image: url("../images/icons/background2.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shops {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    background: #7e7e7ea4;
+    z-index: 9;
+}
+
+.nav{
+    padding:10px 10vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 55px;
+    width: 70px;
+}
+
+.links-container {
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #e7e7e7;
+}
+
+.link {
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.5;
+    transition: .5s;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.link:hover{
+    opacity: 1;
+}

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+h4 {
+    color: white;
+}
+
+body {
+    background-color: rgb(43, 43, 44);
+}
+
+img {
+    width: 350px;
+    height: 450px;
+}
+
+.logo{
+    height: 55px;
+    width: 70px;
+}
+
+/********************** movies ******************/
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 3px;
+    margin-left: 10%;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
